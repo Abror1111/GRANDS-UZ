@@ -1,0 +1,256 @@
+.container {
+  width: max-width;
+  margin: 0 auto;
+  font-family: "Raleway" Arial, Helvetica, sans-serif;
+}
+
+.sait-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: #004897;
+  background-size: contain;
+  position: relative;
+  margin: 0;
+}
+
+.sait-nav__list__link {
+  margin: 35px 0 35px 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.sait-nav__list__link > a {
+  text-decoration: none;
+  color: #fff;
+  padding: 34px 40px 34px 40px;
+}
+
+.sait-nav__list__link > a:hover {
+  background-color: #F95252;
+}
+
+.sait-nav__list .home {
+  margin-left: 90px;
+}
+
+.sait-nav__list__search {
+  position: absolute;
+  margin-top: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  border-radius: 13px;
+  width: 320px;
+  height: 50px;
+  margin-left: 80px;
+}
+
+.sait-nav__list__search:hover {
+  background-color: #F95252;
+}
+
+.sait-nav__list__icon {
+  position: absolute;
+  color: #004897;
+  width: 55px;
+  height: 50px;
+  margin-left: 360px;
+  margin-top: 36px;
+}
+
+.sait-nav__list__img {
+  margin: auto;
+  margin-left: 110px;
+  width: 1300px;
+}
+
+.sait-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-image: url("../img/turk.png");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: max-width;
+  height: 700px;
+  margin: 0;
+}
+
+.sait-navbar > h1 {
+  position: absolute;
+  font-size: 150px;
+  margin-top: 200px;
+  margin-left: 400px;
+  color: #fff;
+}
+
+.sait-navbar__img {
+  position: absolute;
+  margin-left: 430px;
+  margin-top: 370px;
+}
+
+.futures__list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.center {
+  text-align: center;
+}
+
+.futures__news {
+  position: relative;
+  background-color: #F95252;
+  margin: 0;
+}
+
+.futures__news__img {
+  border-radius: 60px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.futures__news__text {
+  position: absolute;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.futures__news__text > h1 {
+  font-size: 35px;
+}
+
+.futures__news__text > p {
+  font-size: 23px;
+}
+
+.futures__news__button {
+  border: none;
+  width: 220px;
+  height: 75px;
+  border-radius: 25px;
+  margin-top: 80px;
+}
+
+.futures__news__button > h1 {
+  font-size: 30px;
+}
+
+.futures__news__button:hover {
+  background-color: #004897;
+  cursor: pointer;
+}
+
+.futures__news .left {
+  margin-left: 20px;
+}
+
+.Clients {
+  margin: 0;
+}
+
+.Clients > h1 {
+  font-size: 65px;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.fon {
+  background-color: #004897;
+  width: max-width;
+  margin: 0;
+}
+
+.futures__list {
+  margin: 0;
+}
+
+.futures__list__user {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 23px;
+}
+
+.futures__list__texta {
+  margin-bottom: 50px;
+  padding: 15px;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 100px;
+  border: solid #fff 1px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.futures__list__texta > h2 {
+  position: absolute;
+  font-size: 15px;
+  margin-left: 130px;
+  margin-top: 35px;
+}
+
+.Contact {
+  margin: 0;
+  background-color: #00264F;
+  height: 600px;
+}
+
+.Contact > h1 {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.us__form__list {
+  list-style: none;
+}
+
+.us__form__list__name {
+  position: absolute;
+  margin-left: 425px;
+  margin-bottom: 20px;
+  width: 550px;
+  height: 40px;
+}
+
+.us__form__list__email {
+  position: absolute;
+  margin-left: 425px;
+  margin-top: 60px;
+  width: 550px;
+  height: 40px;
+}
+
+.us__form__list__text {
+  position: absolute;
+  margin-left: 425px;
+  margin-top: 150px;
+  width: 553px;
+  height: 200px;
+}
+/*# sourceMappingURL=main.css.map */
